@@ -1,0 +1,108 @@
+#root{
+    margin: 0;
+    padding: 0;
+    /* height: 100%; */
+    /* background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%); */
+    box-sizing: border-box;
+
+}
+html{
+    height: 100%;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+h1,h2{
+    text-align: center;
+    
+}
+.todo-container{   
+    align-items: center;
+    border: none; 
+  margin-top: 5rem;
+  
+}
+form{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 2.5rem;
+    width: 22rem;
+    border-bottom-left-radius: 0.7rem;
+    border-top-left-radius: 0.7rem;
+    font-size: 20px;
+    padding-left: 0.5rem;
+   
+}
+.todo-task{
+    height: 2.8rem;
+    width: 5.8rem;
+    border-bottom-right-radius: 0.7rem;
+    border-top-right-radius: 0.7rem;
+    background-color: rgb(17, 102, 151);
+    font-size: 18px;
+    color: white;
+}
+.ullist{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.todo-items{
+   
+    border-radius: 0.6rem;
+    padding-left: 0.5rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: 1fr 0.2fr 0.2fr 0.2fr;
+    margin-top: 2.1rem;   
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0.2rem;
+   
+}
+li{
+    height: 2.3rem;
+    width: 27.5rem;
+    border: 0.1rem,solid;
+    align-items: center;
+}
+.clr-btn{
+    transition: box-shadow 200ms ease, background-color 200ms ease-in-out;
+    
+    width: 4.7rem;
+    height: 2.2rem;
+    font-size: 16px;
+    margin-top: 2.0rem;
+    border-radius: 0.2rem;
+    background-color: rgb(117, 215, 117);
+}
+/* .taskfont{
+    font-size: 22px;
+} */
+.date-time{
+    margin: 1.2rem;
+    font-size: 21px;
+    color: rgb(25, 102, 147);
+}
+.clr{
+    display: grid;
+    justify-content: center;
+}
+.checklist{
+    color: rgb(67, 176, 67);
+  
+   /* background-color: rgb(67, 176, 67); */
+ 
+}
+.checkpending{
+    color:rgb(25, 102, 147);
+    /* background-color:rgb(25, 102, 147) ; */
+}
+.checkdata{
+    color: rgb(67, 176, 67);
+}
+.notcheckdata{
+    color: rgb(25, 102, 147);
+}
